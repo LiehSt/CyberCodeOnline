@@ -26,11 +26,11 @@
 				"vars": [
 					"amount"
 				],
-				"trans": "Kamu sudah bayar sewa apartemenmu sebesar ${amount}",
+				"trans": "Kamu telah membayar sewa apartemenmu sebesar ${amount}",
 				"eng": "You have paid your apartment rent of ${amount}"
 			},
 			"unpaidMail": {
-				"trans": "Kamu gagal bayar sewa apartemenmu, apartemenmu telah disita",
+				"trans": "Kamu telah gagal membayar sewa apartemenmu, apartemenmu sudah disita",
 				"eng": "You have failed to pay your apartment rent, your apartment has been terminated"
 			}
 		}
@@ -42,7 +42,7 @@
 				"eng": "Rent Apartment"
 			},
 			"description": {
-				"trans": "Kamu yakin mau sewa apartemen ini?",
+				"trans": "Kamu yakin ingin sewa apartemen ini?",
 				"eng": "Are you sure you want to rent this apartment?"
 			}
 		},
@@ -132,7 +132,7 @@
 				"eng": "Enter pin code"
 			},
 			"story": {
-				"trans": "Kamu menemukan brankas tua yang terkunci, sepertinya ada note dengan tulisan di atasnya.",
+				"trans": "Kamu menemukan brankas tua yang terkunci aman, sepertinya ada note dengan tulisan di atasnya.",
 				"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
 			},
 			"title": {
@@ -143,19 +143,19 @@
 		"clan": {
 			"selectDepositAmount": {
 				"title": {
-					"trans": "Silakan masukkan jumlah yang ingin kamu setorkan",
+					"trans": "Silakan masukkan jumlah yang ingin kamu depositkan",
 					"eng": "Please enter amount you want to deposit"
 				},
 				"detail": {
 					"vars": [
 						"amount"
 					],
-					"trans": "${amount} bitcoin akan disetorkan ke akun geng mu, tindakan ini tidak dapat dikembalikan",
+					"trans": "${amount} bitcoin akan di depositkan ke akun geng mu, ini tidak akan dapat dikembalikan",
 					"eng": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed"
 				}
 			},
 			"deposit": {
-				"trans": "Setor Bitcoin",
+				"trans": "Deposit Bitcoin",
 				"eng": "Deposit Bitcoin"
 			},
 			"editMotto": {
@@ -172,7 +172,7 @@
 			},
 			"updateImage": {
 				"button": {
-					"trans": "Perbarui Gambar Geng.",
+					"trans": "Ubah Gambar Geng.",
 					"eng": "Update Gang Image"
 				}
 			},
@@ -277,7 +277,7 @@
 						"vars": [
 							"itemName"
 						],
-						"trans": "Kamu dapat meningkatkan peralatanmu dengan menggunakan ${itemName}",
+						"trans": "Kamu bisa meningkatkan peralatanmu dengan menggunakan ${itemName}",
 						"eng": "You can upgrade your equipment by using the ${itemName}"
 					}
 				},
@@ -391,11 +391,11 @@
 				"eng": "Take Bitcoins out of bank"
 			},
 			"putItemToVault": {
-				"trans": "Setor barang",
+				"trans": "Deposit barang",
 				"eng": "Deposit Item"
 			},
 			"putItemToVaultDesc": {
-				"trans": "Masukkan barang ke lemari besimu",
+				"trans": "Masukkan barang ke brangkas Kamu",
 				"eng": "Put items into your vault"
 			},
 			"takeItemFromVault": {
@@ -403,7 +403,7 @@
 				"eng": "Withdraw Item"
 			},
 			"takeItemFromVaultDesc": {
-				"trans": "Ambil barang dari lemari besimu",
+				"trans": "Ambil barang dari brangkas kamu",
 				"eng": "Take items out from your vault"
 			},
 			"upgradeSlot": {
@@ -426,7 +426,7 @@
 			},
 			"modal": {
 				"selectDepositItem": {
-					"trans": "Berapa banyak yang ingin Kamu masukkan ke lemari besi?",
+					"trans": "Berapa banyak yang ingin Kamu masukkan ke brangkas mu?",
 					"eng": "How many would you like to put in the vault?"
 				},
 				"selectWithdrawItem": {
@@ -434,7 +434,7 @@
 					"eng": "How many would you like to withdraw from the bank?"
 				},
 				"selectDeposit": {
-					"trans": "Berapa yang ingin Kamu setorkan?",
+					"trans": "Berapa banyak yang ingin Kamu depositkant?",
 					"eng": "How much would you like to deposit?"
 				},
 				"selectWithdraw": {
@@ -444,7 +444,7 @@
 			},
 			"upgradeVaultModal": {
 				"title": {
-					"trans": "Tingkatkan lemari besi",
+					"trans": "Tingkatkan brangkas",
 					"eng": "Upgrade Vault"
 				},
 				"confirm": {
@@ -453,7 +453,7 @@
 				}
 			},
 			"noBalance": {
-				"trans": "Kamu tidak dapat menarik ketika tidak memiliki saldo",
+				"trans": "Kamu tidak bisa menarik ketika tidak memiliki saldo",
 				"eng": "You can't withdraw when you have no balance."
 			}
 		},
@@ -485,7 +485,7 @@
 				"eng": "Reestablishing connection"
 			},
 			"linksNotAllowed": {
-				"trans": "Tautan tidak diizinkan",
+				"trans": "Link tidak diizinkan",
 				"eng": "Links are not allowed"
 			},
 			"spamBlock": {
@@ -497,7 +497,7 @@
 				"eng": "Please do not send the same message repeatedly, spams will be muted."
 			},
 			"shortChatBlock": {
-				"trans": "Tolong jangan mengirim pesan singkat, coba tuliskan kalimat yang lebih panjang.",
+				"trans": "Tolong jangan mengirim pesan singkat, cobalah tuliskan kalimat yang lebih panjang.",
 				"eng": "Please do not send short messages, try a longer sentence instead."
 			},
 			"underlevelChatBlock": {
@@ -590,7 +590,7 @@
 						"cost",
 						"currency"
 					],
-					"trans": "Buat geng untuk ${cost} ${currency}",
+					"trans": "Buat sebuah geng untuk ${cost} ${currency}",
 					"eng": "Create a gang for ${cost} ${currency}"
 				}
 			}
@@ -643,7 +643,7 @@
 				"eng": "Quick Slots"
 			},
 			"equipped": {
-				"trans": "Dilengkapi",
+				"trans": "Memakai",
 				"eng": "Equipped"
 			}
 		},
@@ -671,7 +671,7 @@
 				"eng": "Dungeon List"
 			},
 			"links": {
-				"trans": "tautan",
+				"trans": "link",
 				"eng": "links"
 			},
 			"premiumShop": {
@@ -691,7 +691,7 @@
 				"eng": "Tutorial"
 			},
 			"settings": {
-				"trans": "Pengaturan",
+				"trans": "Setelan",
 				"eng": "Settings"
 			}
 		},
@@ -725,7 +725,7 @@
 					"vars": [
 						"itemSkipMinutes"
 					],
-					"trans": "Lewati waktu luang (${itemSkipMinutes} Menit)",
+					"trans": "Lewati waktu bebas (${itemSkipMinutes} Menit)",
 					"eng": "Free time skip (${itemSkipMinutes} Min)"
 				},
 				"description": {
@@ -733,13 +733,13 @@
 						"timeSkipItemName",
 						"itemSkipMinutes"
 					],
-					"trans": "Gunakan salah satu dari ${timeSkipItemName}mu untuk melewati ${itemSkipMinutes} menit",
+					"trans": "Gunakan salah satu dari ${timeSkipItemName} mu untuk melewati ${itemSkipMinutes} menit",
 					"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
 				}
 			},
 			"confirmModal": {
 				"title": {
-					"trans": "Yakin menggunakan Skip?",
+					"trans": "Konfirmasi menggunakan Skip?",
 					"eng": "Confirm use skip?"
 				},
 				"subtitle": {
@@ -791,7 +791,7 @@
 				"eng": "Inventory"
 			},
 			"equipped": {
-				"trans": "Dipakai",
+				"trans": "Memakai",
 				"eng": "Equipped"
 			},
 			"itemInbox": {
@@ -824,7 +824,7 @@
 					"eng": "Malfunctioned"
 				},
 				"instruction": {
-					"trans": "Item ini rusak, bawa ke Toko Senjata untuk diperbaiki",
+					"trans": "Item ini rusak, bawa ke Tukang Senjata untuk diperbaiki",
 					"eng": "This item is broken, bring it to Weapon Smith for repair"
 				}
 			},
@@ -859,22 +859,22 @@
 				"eng": "Locked"
 			},
 			"unlocked": {
-				"trans": "Kunci terbuka",
+				"trans": "Terbuka",
 				"eng": "Unlocked"
 			},
 			"upgradeModuleTitleHeader": {
-				"trans": "Upgrade slot",
+				"trans": "Tingkatkan slot",
 				"eng": "Upgrades Slots"
 			},
 			"upgradeModuleTitle": {
 				"vars": [
 					"index"
 				],
-				"trans": "Upgrade",
+				"trans": "tingkat slot ${index}",
 				"eng": "upgrade slot ${index}"
 			},
 			"equip": {
-				"trans": "Lengkapi",
+				"trans": "Pakai",
 				"eng": "Equip"
 			},
 			"cantEquip": {
@@ -886,7 +886,7 @@
 				"eng": "Unequip"
 			},
 			"use": {
-				"trans": "Gunakan",
+				"trans": "Pakai",
 				"eng": "Use"
 			},
 			"cantPrintWhileInCombat": {
@@ -897,7 +897,7 @@
 				"eng": "You can't print equipment while ${currentAction}"
 			},
 			"printCache": {
-				"trans": "Print cache",
+				"trans": "Cetak cache",
 				"eng": "Print Cache"
 			},
 			"printCacheDescription": {
@@ -905,11 +905,11 @@
 				"eng": "Turn this cache into a weapon or equipment item that you can use."
 			},
 			"openContainer": {
-				"trans": "Buka kunci kontainer",
+				"trans": "Buka kunci Kontainer",
 				"eng": "Unlock Container"
 			},
 			"cantOpenContainerNotIdleV2": {
-				"trans": "Anda tidak dapat membuka kunci kontainer saat ini",
+				"trans": "Kamu tidak dapat membuka kunci kontainer sekarang ini",
 				"eng": "You cannot unlock containers right now"
 			},
 			"openRedEnvelop": {
@@ -920,7 +920,7 @@
 				"vars": [
 					"itemName"
 				],
-				"trans": "Anda tidak dapat membuka ${itemName} sekarang",
+				"trans": "Kamu tidak dapat membuka ${itemName} sekarang ini",
 				"eng": "You cannot open ${itemName} right now"
 			}
 		},
@@ -938,7 +938,7 @@
 			"factoryReset": {
 				"confirmation": {
 					"title": {
-						"trans": "Apakah Anda yakin ingin melakukan reset pabrik?",
+						"trans": "Apakah Anda yakin ingin mengulang pabrik?",
 						"eng": "Are you sure you want to factory reset?"
 					},
 					"description": {
@@ -951,7 +951,7 @@
 			},
 			"noItem": {
 				"title": {
-					"trans": "Kamu tidak lagi memiliki item ini",
+					"trans": "Kamu sudah tidak lagi memiliki item ini",
 					"eng": "You no longer have this item"
 				},
 				"description": {
@@ -1003,13 +1003,13 @@
 				"eng": "Travel"
 			},
 			"hideLowerLevelTravels": {
-				"trans": "Sembunyikan level yang lebih rendah",
+				"trans": "Sembunyikan level rendah",
 				"eng": "Hide lower levels"
 			}
 		},
 		"npc": {
 			"notUnlocked": {
-				"trans": "Ini belum bisa dibuka, coba naikkan levelmu",
+				"trans": "Ini belum bisa dibuka, cobalah naikkan level karaktermu",
 				"eng": "This is not unlocked yet, try leveling up your character"
 			},
 			"repairItems": {
@@ -1061,7 +1061,7 @@
 				"eng": "title"
 			},
 			"gearScore": {
-				"trans": "Skor Equipment",
+				"trans": "Skor Gigi",
 				"eng": "Gear Score"
 			},
 			"location": {
@@ -1069,7 +1069,7 @@
 				"eng": "location"
 			},
 			"onlineStatus": {
-				"trans": "Tautan Sistem",
+				"trans": "link sistem",
 				"eng": "system link"
 			},
 			"streetCred": {
@@ -1093,14 +1093,14 @@
 				"eng": "confidential"
 			},
 			"decoration2": {
-				"trans": "Properti milik Kepolisian Shangri-La",
+				"trans": "Properti milik SLPD",
 				"eng": "Property of SLPD"
 			},
 			"accountCreated": {
 				"vars": [
 					"date"
 				],
-				"trans": "file dibuat pada ${date}",
+				"trans": "folder dibuat pada ${date}",
 				"eng": "file created at ${date}"
 			},
 			"numOfMember": {
@@ -1131,7 +1131,7 @@
 					"eng": "Player Actions"
 				},
 				"sendPrivateMsg": {
-					"trans": "Kirim Pesan Secara Pribadi",
+					"trans": "Kirim Pesan Pribadi",
 					"eng": "Send private message"
 				},
 				"sendGift": {
@@ -1139,7 +1139,7 @@
 					"eng": "Send Gift"
 				},
 				"trade": {
-					"trans": "Kirim permintaan perdagangan",
+					"trans": "Kirim permintaan pertukaran",
 					"eng": "Send Trade Request"
 				},
 				"sendCosmetic": {
@@ -1195,13 +1195,13 @@
 					"eng": "Calibration Success"
 				},
 				"subtitle": {
-					"trans": "ERROR tidak terdeteksi",
+					"trans": "Tidak ada Eror terdeteksi",
 					"eng": "No error detected"
 				}
 			},
 			"leaveDungeon": {
 				"title": {
-					"trans": "Yakin ingin meninggalkan dungeon ini?",
+					"trans": "Kamu Yakin ingin meninggalkan dungeon ini?",
 					"eng": "Are you sure you want to leave this dungeon?"
 				},
 				"subtitle": {
@@ -1245,13 +1245,13 @@
 			},
 			"levelSelect": {
 				"title": {
-					"trans": "Tingkat",
+					"trans": "Level",
 					"eng": "Level"
 				}
 			},
 			"tierSelection": {
 				"title": {
-					"trans": "Tingkat Kelangkaan",
+					"trans": "Kelangkaan",
 					"eng": "Rarity"
 				}
 			},
@@ -1260,7 +1260,7 @@
 				"eng": "there is currently no items on sale for this category"
 			},
 			"pricePerPiece": {
-				"trans": "per item",
+				"trans": "per barang",
 				"eng": "per item"
 			},
 			"purchase": {
@@ -1269,18 +1269,18 @@
 			},
 			"stall": {
 				"sellItemButton": {
-					"trans": "Letakkan barang yang akan dijual",
+					"trans": "Letakkan barang yang dijual",
 					"eng": "Put Item On Sale"
 				},
 				"selectItemForSale": {
-					"trans": "Silakan pilih barang yang ingin Kamu jual",
+					"trans": "Silakan pilih sebuah barang yang ingin Kamu jual",
 					"eng": "Please select the item you want to sell"
 				}
 			}
 		},
 		"afkTask": {
 			"newbieTip": {
-				"trans": "Tugas akan berlanjut meski Kamu menutup permainan, AFK aja gapapa kok.",
+				"trans": "Tugas akan berlanjut meski Kamu menutup permainan, (Kamu Keluar, Tugas akan tetap berjalan).",
 				"eng": "The task will continue even if you close the game"
 			},
 			"syncing": {
@@ -1359,7 +1359,7 @@
 				"eng": "rewards"
 			},
 			"rewardAvailable": {
-				"trans": "Klik untuk mengumpulkan hadiah",
+				"trans": "Klik untuk mengambil hadiah",
 				"eng": "Click to collect reward"
 			},
 			"viewDetails": {
@@ -1379,7 +1379,7 @@
 				"eng": "Suspended"
 			},
 			"description": {
-				"trans": "Akun Kamu telah ditangguhkan secara otomatis oleh sistem karena aktivitas mencurigakan",
+				"trans": "Akun Kamu telah ditangguhkan secara otomatis oleh sistem karena aktivitas mencurigakan (Terjadi apa bila kamu melakukan hal yang merugikan terhadap Dev dan Pemain)",
 				"eng": "Your account has been suspended automatically by the system due to Unusual Activity"
 			},
 			"possibleReasons": {
@@ -1405,7 +1405,7 @@
 				}
 			},
 			"content": {
-				"trans": "Jika Kamu memiliki pertanyaan, jangan ragu untuk menghubungi Dexter secara langsung melalui Discord resmi kami (tautan dapat ditemukan di menu mengambang (Floating Menu) -> tautan) atau email ke ching.huang.dexter@gmail.com",
+				"trans": "Jika Kamu memiliki pertanyaan, tolong jangan ragu untuk menghubungi Dexter secara langsung melalui Discord resmi kami (tautan dapat ditemukan di menu mengambang (Floating Menu) -> tautan) atau email ke ching.huang.dexter@gmail.com",
 				"eng": "If you have any questions please feel free to contact Dexter directly via official Discord (Link can be found in Floating Menu -> Links) or email to ching.huang.dexter@gmail.com"
 			}
 		},
